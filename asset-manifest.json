@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dutch-lessons/static/css/main.6e70ae1a.css",
-    "main.js": "/dutch-lessons/static/js/main.8f305855.js",
+    "main.css": "/dutch-lessons/static/css/main.807d3f6f.css",
+    "main.js": "/dutch-lessons/static/js/main.073aa686.js",
     "static/js/453.3efa31db.chunk.js": "/dutch-lessons/static/js/453.3efa31db.chunk.js",
     "index.html": "/dutch-lessons/index.html",
-    "main.6e70ae1a.css.map": "/dutch-lessons/static/css/main.6e70ae1a.css.map",
-    "main.8f305855.js.map": "/dutch-lessons/static/js/main.8f305855.js.map",
+    "main.807d3f6f.css.map": "/dutch-lessons/static/css/main.807d3f6f.css.map",
+    "main.073aa686.js.map": "/dutch-lessons/static/js/main.073aa686.js.map",
     "453.3efa31db.chunk.js.map": "/dutch-lessons/static/js/453.3efa31db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e70ae1a.css",
-    "static/js/main.8f305855.js"
+    "static/css/main.807d3f6f.css",
+    "static/js/main.073aa686.js"
   ]
 }
