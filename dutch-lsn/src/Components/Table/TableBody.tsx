@@ -3,7 +3,13 @@ import { EditIcon } from "../Icon/EditIcon";
 import { EyeIcon } from "../Icon/EyeIcon";
 import { UserIcon } from "../Icon/UserIcon";
 
-export const TableBody = () => {
+interface TableBodyInterface {
+  onClick: () => void;
+}
+
+export const TableBody: React.FunctionComponent<TableBodyInterface> = ({
+  onClick,
+}) => {
   const data = [
     {
       dayAndTime: "Monday 9:00",
@@ -48,7 +54,10 @@ export const TableBody = () => {
             <div className="flex items-center justify-between">
               <p>{item.notes}</p>
               <div className="flex items-center justify-center gap-2">
-                <button className="border border-gray-400 rounded hover:bg-gray-100 p-1 px-2 transition">
+                <button
+                  className="border border-gray-400 rounded hover:bg-gray-100 p-1 px-2 transition"
+                  onClick={onClick}
+                >
                   <EyeIcon />
                 </button>
                 <button className="border border-gray-400 rounded hover:bg-gray-100 p-1 px-2 transition">
